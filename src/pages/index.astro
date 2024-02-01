@@ -73,8 +73,8 @@ async function getRecipes() {
             </CardHeader>
             <CardContent>{recipe.description}</CardContent>
             <CardFooter>
-              <Button variant="outline">View recipe</Button>
-							{recipe.vegan && <Badge variant="default">Vegan</Badge>}
+              <Button variant="default">View recipe</Button>
+							{recipe.vegan && <Badge variant="secondary">Vegan</Badge>}
             </CardFooter>
           </Card>
         ))
